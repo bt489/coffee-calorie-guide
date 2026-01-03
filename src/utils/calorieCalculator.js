@@ -156,3 +156,32 @@ export function getMilkCalorieDelta(fromMilk, toMilk, ozAmount, ingredients) {
   const toCals = ingredients.milks[toMilk]?.caloriesPerOz || 0;
   return Math.round((toCals - fromCals) * ozAmount);
 }
+
+/**
+ * Get the actual calories for a drink with a specific milk/size, using stored data when available
+ */
+export function getCaloriesForConfig(drink, size, milk, ingredients) {
+  // Check if we have exact data for this config
+  const nutritionConfig = drink.nutritionByConfig?.[size]?.[milk];
+  if (nutritionConfig?.calories !== undefined) {
+    return nutritionConfig.calories;
+  }
+
+  // Fall back to calculation
+  const referenceMilk = drink.defaultMilk || '2percent';
+  let referenceConfig = drink.nutritionByConfig?.[size]?.[referenceMilk];
+
+  if (!referenceConfig) {
+    referenceConfig = drink.nutritionByConfig?.[drink.defaultSize]?.[referenceMilk];
+  }
+
+  const referenceCalories = referenceConfig?.calories || drink.baseCalories || 0;
+
+  if (drink.hasMilk && milk !== referenceMilk) {
+    const milkOz = getMilkOzForDrink(drink, size);
+    const milkDelta = getMilkCalorieDelta(referenceMilk, milk, milkOz, ingredients);
+    return Math.max(0, referenceCalories + milkDelta);
+  }
+
+  return referenceCalories;
+}

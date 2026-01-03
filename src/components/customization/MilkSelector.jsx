@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useDrink } from '../../context/DrinkContext';
-import { getMilkCalorieDelta } from '../../utils/calorieCalculator';
-import customizationsData from '../../data/customizations.json';
+import { getCaloriesForConfig } from '../../utils/calorieCalculator';
 
 export default function MilkSelector() {
   const { selectedDrink, customizations, ingredients, dispatch } = useDrink();
@@ -14,18 +13,11 @@ export default function MilkSelector() {
     const currentMilk = customizations.milk;
     if (milkId === currentMilk) return 0;
 
-    const sizeOz = customizationsData.sizes[customizations.size]?.oz || 16;
-    const category = selectedDrink.category?.toLowerCase() || '';
-    const name = selectedDrink.name?.toLowerCase() || '';
+    // Get actual calories for current and target milk using stored data
+    const currentCalories = getCaloriesForConfig(selectedDrink, customizations.size, currentMilk, ingredients);
+    const targetCalories = getCaloriesForConfig(selectedDrink, customizations.size, milkId, ingredients);
 
-    let milkOz;
-    if (category.includes('cappuccino') || name.includes('cappuccino')) {
-      milkOz = Math.round(sizeOz * 0.5);
-    } else {
-      milkOz = Math.round(sizeOz * 0.75);
-    }
-
-    return getMilkCalorieDelta(currentMilk, milkId, milkOz, ingredients);
+    return targetCalories - currentCalories;
   };
 
   return (
