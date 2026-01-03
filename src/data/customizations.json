@@ -1,0 +1,53 @@
+{
+  "sizes": {
+    "short": {
+      "id": "short",
+      "name": "Short",
+      "oz": 8,
+      "order": 1
+    },
+    "tall": {
+      "id": "tall",
+      "name": "Tall",
+      "oz": 12,
+      "order": 2
+    },
+    "grande": {
+      "id": "grande",
+      "name": "Grande",
+      "oz": 16,
+      "order": 3
+    },
+    "venti": {
+      "id": "venti",
+      "name": "Venti",
+      "oz": 20,
+      "order": 4
+    },
+    "trenta": {
+      "id": "trenta",
+      "name": "Trenta",
+      "oz": 30,
+      "order": 5
+    }
+  },
+  "defaultSyrupPumpsBySize": {
+    "short": 2,
+    "tall": 3,
+    "grande": 4,
+    "venti": 5,
+    "trenta": 6
+  },
+  "defaultEspressoShotsBySize": {
+    "short": 1,
+    "tall": 1,
+    "grande": 2,
+    "venti": 2
+  },
+  "toppingAmounts": [
+    { "id": "none", "name": "No", "multiplier": 0 },
+    { "id": "light", "name": "Light", "multiplier": 0.5 },
+    { "id": "standard", "name": "Standard", "multiplier": 1 },
+    { "id": "extra", "name": "Extra", "multiplier": 1.5 }
+  ]
+}

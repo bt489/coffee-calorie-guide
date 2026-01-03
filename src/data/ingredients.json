@@ -1,0 +1,148 @@
+{
+  "milks": {
+    "2percent": {
+      "id": "2percent",
+      "name": "2% Milk",
+      "caloriesPerOz": 15,
+      "isDefault": true
+    },
+    "whole": {
+      "id": "whole",
+      "name": "Whole Milk",
+      "caloriesPerOz": 19
+    },
+    "nonfat": {
+      "id": "nonfat",
+      "name": "Nonfat Milk",
+      "caloriesPerOz": 10
+    },
+    "oatmilk": {
+      "id": "oatmilk",
+      "name": "Oatmilk",
+      "caloriesPerOz": 15,
+      "isNonDairy": true
+    },
+    "almondmilk": {
+      "id": "almondmilk",
+      "name": "Almondmilk",
+      "caloriesPerOz": 8,
+      "isNonDairy": true
+    },
+    "coconutmilk": {
+      "id": "coconutmilk",
+      "name": "Coconutmilk",
+      "caloriesPerOz": 10,
+      "isNonDairy": true
+    },
+    "soymilk": {
+      "id": "soymilk",
+      "name": "Soymilk",
+      "caloriesPerOz": 16,
+      "isNonDairy": true
+    },
+    "heavy-cream": {
+      "id": "heavy-cream",
+      "name": "Heavy Cream",
+      "caloriesPerOz": 101
+    },
+    "half-and-half": {
+      "id": "half-and-half",
+      "name": "Half & Half",
+      "caloriesPerOz": 39
+    }
+  },
+  "syrups": {
+    "vanilla": {
+      "id": "vanilla",
+      "name": "Vanilla Syrup",
+      "caloriesPerPump": 20
+    },
+    "caramel": {
+      "id": "caramel",
+      "name": "Caramel Syrup",
+      "caloriesPerPump": 20
+    },
+    "hazelnut": {
+      "id": "hazelnut",
+      "name": "Hazelnut Syrup",
+      "caloriesPerPump": 20
+    },
+    "toffee-nut": {
+      "id": "toffee-nut",
+      "name": "Toffee Nut Syrup",
+      "caloriesPerPump": 20
+    },
+    "classic": {
+      "id": "classic",
+      "name": "Classic Syrup",
+      "caloriesPerPump": 20
+    },
+    "mocha": {
+      "id": "mocha",
+      "name": "Mocha Sauce",
+      "caloriesPerPump": 25
+    },
+    "white-mocha": {
+      "id": "white-mocha",
+      "name": "White Chocolate Mocha Sauce",
+      "caloriesPerPump": 50
+    },
+    "sugar-free-vanilla": {
+      "id": "sugar-free-vanilla",
+      "name": "Sugar-Free Vanilla Syrup",
+      "caloriesPerPump": 0
+    },
+    "pumpkin-spice": {
+      "id": "pumpkin-spice",
+      "name": "Pumpkin Spice Sauce",
+      "caloriesPerPump": 30,
+      "isSeasonal": true
+    }
+  },
+  "espresso": {
+    "signature": {
+      "id": "signature",
+      "name": "Signature Espresso",
+      "caloriesPerShot": 5,
+      "isDefault": true
+    },
+    "blonde": {
+      "id": "blonde",
+      "name": "Blonde Espresso",
+      "caloriesPerShot": 5
+    },
+    "decaf": {
+      "id": "decaf",
+      "name": "Decaf Espresso",
+      "caloriesPerShot": 5
+    }
+  },
+  "toppings": {
+    "whipped-cream": {
+      "id": "whipped-cream",
+      "name": "Whipped Cream",
+      "caloriesStandard": 80,
+      "caloriesLight": 40
+    },
+    "cold-foam": {
+      "id": "cold-foam",
+      "name": "Cold Foam",
+      "caloriesStandard": 35
+    },
+    "vanilla-sweet-cream-cold-foam": {
+      "id": "vanilla-sweet-cream-cold-foam",
+      "name": "Vanilla Sweet Cream Cold Foam",
+      "caloriesStandard": 110
+    },
+    "caramel-drizzle": {
+      "id": "caramel-drizzle",
+      "name": "Caramel Drizzle",
+      "caloriesStandard": 15
+    },
+    "chocolate-curls": {
+      "id": "chocolate-curls",
+      "name": "Chocolate Curls",
+      "caloriesStandard": 5
+    }
+  }
+}

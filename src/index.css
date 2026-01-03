@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  /* Coffee-inspired warm color palette */
+  --color-coffee-dark: #3D2314;
+  --color-coffee: #6F4E37;
+  --color-coffee-light: #A67B5B;
+  --color-cream: #FDF6E3;
+  --color-cream-dark: #F5E6D3;
+  --color-caramel: #C68B59;
+  --color-espresso: #2C1810;
+
+  /* Semantic Colors */
+  --color-calorie-added: #C44536;
+  --color-calorie-reduced: #457B5B;
+
+  /* Font Family - Using Inter for a modern, neutral look */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Base styles */
+body {
+  @apply bg-gradient-to-br from-cream via-white to-cream-dark/50 text-espresso min-h-screen;
+  font-family: var(--font-sans);
+}
+
+/* Custom utility for calorie delta display */
+.calorie-delta-positive {
+  @apply text-calorie-added;
+}
+
+.calorie-delta-negative {
+  @apply text-calorie-reduced;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(44, 24, 16, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(111, 78, 55, 0.08);
+}
+
+/* Subtle border glow effects */
+.glow-coffee {
+  box-shadow:
+    0 0 0 1px rgba(111, 78, 55, 0.1),
+    0 4px 20px rgba(111, 78, 55, 0.1);
+}
+
+.glow-coffee-hover:hover {
+  box-shadow:
+    0 0 0 1px rgba(111, 78, 55, 0.2),
+    0 8px 30px rgba(111, 78, 55, 0.15);
+}
+
+.glow-caramel {
+  box-shadow:
+    0 0 0 1px rgba(198, 139, 89, 0.2),
+    0 4px 20px rgba(198, 139, 89, 0.15);
+}
+
+/* Active/selected state glow */
+.glow-active {
+  box-shadow:
+    0 0 0 2px rgba(111, 78, 55, 0.3),
+    0 4px 20px rgba(111, 78, 55, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Custom scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth transitions */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button press effect */
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* Calorie counter animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(111, 78, 55, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(111, 78, 55, 0.1);
+  }
+}
+
+.calorie-pulse {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

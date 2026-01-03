@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee"
+    },
+    {
+      "id": "classic-espresso-drinks",
+      "name": "Classic Espresso Drinks"
+    },
+    {
+      "id": "signature-espresso-drinks",
+      "name": "Signature Espresso Drinks"
+    },
+    {
+      "id": "tazo-tea-drinks",
+      "name": "Tazo® Tea Drinks"
+    },
+    {
+      "id": "shaken-iced-beverages",
+      "name": "Shaken Iced Beverages"
+    },
+    {
+      "id": "smoothies",
+      "name": "Smoothies"
+    },
+    {
+      "id": "frappuccino-blended-coffee",
+      "name": "Frappuccino® Blended Coffee"
+    },
+    {
+      "id": "frappuccino-light-blended-coffee",
+      "name": "Frappuccino® Light Blended Coffee"
+    },
+    {
+      "id": "frappuccino-blended-cr-me",
+      "name": "Frappuccino® Blended Crème"
+    }
+  ]
+}

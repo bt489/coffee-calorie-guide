@@ -1,0 +1,2317 @@
+{
+  "drinks": [
+    {
+      "id": "brewed-coffee",
+      "name": "Brewed Coffee",
+      "categoryId": "coffee",
+      "category": "Coffee",
+      "availableSizes": [
+        "short",
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 5,
+      "nutritionByConfig": {
+        "short": {
+          "2percent": {
+            "calories": 3,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 175
+          }
+        },
+        "tall": {
+          "2percent": {
+            "calories": 4,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 260
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 5,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 330
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 5,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 410
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "caff-latte",
+      "name": "Caffè Latte",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 240,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 70,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 240,
+            "totalFat": 0,
+            "saturatedFat": 0.3,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "soymilk": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "nonfat": {
+            "calories": 130,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 170,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "caff-mocha-without-whipped-cream",
+      "name": "Caffè Mocha (Without Whipped Cream)",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 340,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 110,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 85
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 340,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 180
+          },
+          "soymilk": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 180
+          },
+          "nonfat": {
+            "calories": 220,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 175
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 170,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 95
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 280,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 180
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "vanilla-latte-or-other-flavoured-latte",
+      "name": "Vanilla Latte (Or Other Flavoured Latte)",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 320,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 320,
+            "totalFat": 0,
+            "saturatedFat": 0.3,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "soymilk": {
+            "calories": 270,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "nonfat": {
+            "calories": 200,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 250,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "caff-americano",
+      "name": "Caffè Americano",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 15,
+      "nutritionByConfig": {
+        "short": {
+          "2percent": {
+            "calories": 5,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "tall": {
+          "2percent": {
+            "calories": 10,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 15,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 225
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 25,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 300
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 150,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 50,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "soymilk": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "nonfat": {
+            "calories": 80,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 60,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 110,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "grande"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 10,
+      "nutritionByConfig": {
+        "grande": {
+          "2percent": {
+            "calories": 10,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "skinny-latte-any-flavour",
+      "name": "Skinny Latte (Any Flavour)",
+      "categoryId": "classic-espresso-drinks",
+      "category": "Classic Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 120,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 60,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "nonfat": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 160,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "caramel-macchiato",
+      "name": "Caramel Macchiato",
+      "categoryId": "signature-espresso-drinks",
+      "category": "Signature Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 300,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 300,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "soymilk": {
+            "calories": 250,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "nonfat": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 140,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 240,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "white-chocolate-mocha-without-whipped-cream",
+      "name": "White Chocolate Mocha (Without Whipped Cream)",
+      "categoryId": "signature-espresso-drinks",
+      "category": "Signature Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 510,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 180,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 510,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "soymilk": {
+            "calories": 460,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          },
+          "nonfat": {
+            "calories": 350,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 270,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 450,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 150
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "hot-chocolate-without-whipped-cream",
+      "name": "Hot Chocolate (Without Whipped Cream)",
+      "categoryId": "signature-espresso-drinks",
+      "category": "Signature Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 380,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 130,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 10
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 380,
+            "totalFat": 0,
+            "saturatedFat": 0.3,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 30
+          },
+          "soymilk": {
+            "calories": 330,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 30
+          },
+          "nonfat": {
+            "calories": 240,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 25
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 20
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 320,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 30
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "caramel-apple-spice-without-whipped-cream",
+      "name": "Caramel Apple Spice (Without Whipped Cream)",
+      "categoryId": "signature-espresso-drinks",
+      "category": "Signature Espresso Drinks",
+      "availableSizes": [
+        "short",
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 280,
+      "nutritionByConfig": {
+        "short": {
+          "2percent": {
+            "calories": 140,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "tall": {
+          "2percent": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 280,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 360,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "tazo-tea",
+      "name": "Tazo® Tea",
+      "categoryId": "tazo-tea-drinks",
+      "category": "Tazo® Tea Drinks",
+      "availableSizes": [
+        "short",
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 0,
+      "nutritionByConfig": {
+        "short": {
+          "2percent": {
+            "calories": 0,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "tall": {
+          "2percent": {
+            "calories": 0,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 0,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 0,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "tazo-chai-tea-latte",
+      "name": "Tazo® Chai Tea Latte",
+      "categoryId": "tazo-tea-drinks",
+      "category": "Tazo® Tea Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 310,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 50
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 310,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          },
+          "soymilk": {
+            "calories": 280,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          },
+          "nonfat": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 95
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 160,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 260,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "tazo-green-tea-latte",
+      "name": "Tazo® Green Tea Latte",
+      "categoryId": "tazo-tea-drinks",
+      "category": "Tazo® Tea Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 450,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 130,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 25
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 450,
+            "totalFat": 0,
+            "saturatedFat": 0.3,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 110
+          },
+          "soymilk": {
+            "calories": 390,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 110
+          },
+          "nonfat": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 80
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 55
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 370,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 110
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "tazo-full-leaf-tea-latte",
+      "name": "Tazo® Full-Leaf Tea Latte",
+      "categoryId": "tazo-tea-drinks",
+      "category": "Tazo® Tea Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 230,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 80,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 230,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "tazo-full-leaf-red-tea-latte-vanilla-rooibos",
+      "name": "Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos)",
+      "categoryId": "tazo-tea-drinks",
+      "category": "Tazo® Tea Drinks",
+      "availableSizes": [
+        "short",
+        "grande",
+        "tall",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 230,
+      "nutritionByConfig": {
+        "short": {
+          "nonfat": {
+            "calories": 80,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 230,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "tall": {
+          "nonfat": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "iced-brewed-coffee-with-classic-syrup",
+      "name": "Iced Brewed Coffee (With Classic Syrup)",
+      "categoryId": "shaken-iced-beverages",
+      "category": "Shaken Iced Beverages",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 90,
+      "nutritionByConfig": {
+        "tall": {
+          "2percent": {
+            "calories": 60,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 90,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 165
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 130,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 235
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "iced-brewed-coffee-with-milk-classic-syrup",
+      "name": "Iced Brewed Coffee (With Milk & Classic Syrup)",
+      "categoryId": "shaken-iced-beverages",
+      "category": "Shaken Iced Beverages",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 180,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 80,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 90
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 180,
+            "totalFat": 0,
+            "saturatedFat": 0.1,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 170
+          },
+          "soymilk": {
+            "calories": 170,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 170
+          },
+          "nonfat": {
+            "calories": 110,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 90
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 160,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 125
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "shaken-iced-tazo-tea-with-classic-syrup",
+      "name": "Shaken Iced Tazo® Tea (With Classic Syrup)",
+      "categoryId": "shaken-iced-beverages",
+      "category": "Shaken Iced Beverages",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 80,
+      "nutritionByConfig": {
+        "tall": {
+          "2percent": {
+            "calories": 60,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 170
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 80,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "shaken-iced-tazo-tea-lemonade-with-classic-syrup",
+      "name": "Shaken Iced Tazo® Tea Lemonade (With Classic Syrup)",
+      "categoryId": "shaken-iced-beverages",
+      "category": "Shaken Iced Beverages",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 130,
+      "nutritionByConfig": {
+        "tall": {
+          "2percent": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "2percent": {
+            "calories": 130,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "2percent": {
+            "calories": 190,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "banana-chocolate-smoothie",
+      "name": "Banana Chocolate Smoothie",
+      "categoryId": "smoothies",
+      "category": "Smoothies",
+      "availableSizes": [
+        "grande"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 300,
+      "nutritionByConfig": {
+        "grande": {
+          "nonfat": {
+            "calories": 280,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "2percent": {
+            "calories": 300,
+            "totalFat": 0,
+            "saturatedFat": 0.1,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 15
+          },
+          "soymilk": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 15
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "orange-mango-banana-smoothie",
+      "name": "Orange Mango Banana Smoothie",
+      "categoryId": "smoothies",
+      "category": "Smoothies",
+      "availableSizes": [
+        "grande"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 270,
+      "nutritionByConfig": {
+        "grande": {
+          "nonfat": {
+            "calories": 260,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 15
+          },
+          "2percent": {
+            "calories": 270,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 270,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "strawberry-banana-smoothie",
+      "name": "Strawberry Banana Smoothie",
+      "categoryId": "smoothies",
+      "category": "Smoothies",
+      "availableSizes": [
+        "grande"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "2percent",
+      "baseCalories": 290,
+      "nutritionByConfig": {
+        "grande": {
+          "nonfat": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "2percent": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "categoryId": "frappuccino-blended-coffee",
+      "category": "Frappuccino® Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 220,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 160,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 350,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          },
+          "soymilk": {
+            "calories": 310,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          },
+          "nonfat": {
+            "calories": 220,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 310,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 95
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "mocha-without-whipped-cream",
+      "name": "Mocha (Without Whipped Cream)",
+      "categoryId": "frappuccino-blended-coffee",
+      "category": "Frappuccino® Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 260,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 180,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 390,
+            "totalFat": 0,
+            "saturatedFat": 0.1,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 140
+          },
+          "soymilk": {
+            "calories": 350,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 140
+          },
+          "nonfat": {
+            "calories": 260,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 110
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 340,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 140
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "caramel-without-whipped-cream",
+      "name": "Caramel (Without Whipped Cream)",
+      "categoryId": "frappuccino-blended-coffee",
+      "category": "Frappuccino® Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 280,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 180,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 370,
+            "totalFat": 0,
+            "saturatedFat": 0.1,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          },
+          "soymilk": {
+            "calories": 340,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          },
+          "nonfat": {
+            "calories": 280,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 100
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 330,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "java-chip-without-whipped-cream",
+      "name": "Java Chip (Without Whipped Cream)",
+      "categoryId": "frappuccino-blended-coffee",
+      "category": "Frappuccino® Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 310,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 220,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 75
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 460,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 145
+          },
+          "soymilk": {
+            "calories": 430,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 145
+          },
+          "nonfat": {
+            "calories": 310,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 110
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 420,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 145
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "categoryId": "frappuccino-light-blended-coffee",
+      "category": "Frappuccino® Light Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 120,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 90,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "grande": {
+          "nonfat": {
+            "calories": 120,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 95
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 160,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "categoryId": "frappuccino-light-blended-coffee",
+      "category": "Frappuccino® Light Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 150,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 110,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "grande": {
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 95
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 210,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 130
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "caramel",
+      "name": "Caramel",
+      "categoryId": "frappuccino-light-blended-coffee",
+      "category": "Frappuccino® Light Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 150,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 100,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 65
+          }
+        },
+        "grande": {
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 90
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 200,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 120
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "java-chip",
+      "name": "Java Chip",
+      "categoryId": "frappuccino-light-blended-coffee",
+      "category": "Frappuccino® Light Blended Coffee",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 220,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 150,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 70
+          }
+        },
+        "grande": {
+          "nonfat": {
+            "calories": 220,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 105
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 290,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 165
+          }
+        }
+      },
+      "hasMilk": false
+    },
+    {
+      "id": "strawberries-cr-me-without-whipped-cream",
+      "name": "Strawberries & Crème (Without Whipped Cream)",
+      "categoryId": "frappuccino-blended-cr-me",
+      "category": "Frappuccino® Blended Crème",
+      "availableSizes": [
+        "tall",
+        "grande",
+        "venti"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 230,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 170,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 350,
+            "totalFat": 0,
+            "saturatedFat": 0.2,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 320,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "nonfat": {
+            "calories": 230,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "venti": {
+          "nonfat": {
+            "calories": 310,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    },
+    {
+      "id": "vanilla-bean-without-whipped-cream",
+      "name": "Vanilla Bean (Without Whipped Cream)",
+      "categoryId": "frappuccino-blended-cr-me",
+      "category": "Frappuccino® Blended Crème",
+      "availableSizes": [
+        "tall",
+        "grande"
+      ],
+      "defaultSize": "grande",
+      "defaultMilk": "nonfat",
+      "baseCalories": 240,
+      "nutritionByConfig": {
+        "tall": {
+          "nonfat": {
+            "calories": 170,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        },
+        "grande": {
+          "whole": {
+            "calories": 200,
+            "totalFat": 0,
+            "saturatedFat": 0.1,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "soymilk": {
+            "calories": 180,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          },
+          "nonfat": {
+            "calories": 240,
+            "totalFat": 0,
+            "saturatedFat": 0,
+            "sodium": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "protein": 0,
+            "caffeine": 0
+          }
+        }
+      },
+      "hasMilk": true
+    }
+  ]
+}
